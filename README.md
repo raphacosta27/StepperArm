@@ -6,7 +6,7 @@ Download Stepper.c and Stepper.h from this repository and include the files in y
 
 
 ## Init 
-Create a Stepper struct instance like:
+Create a Stepper struct instance like:\n
 	Stepper n;
 
 Then, use the initStepper function to make it usable:
