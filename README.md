@@ -11,10 +11,13 @@ Create a Stepper struct instance like:</br>
 Stepper n;
 ```
 Then, use the initStepper function to make it usable:</br>
- initStepper(&n, int number_of_steps, Pio *pio_pin1, uint32_t pio_mask_pin1,</br>
-                                              Pio *pio_pin2, uint32_t pio_mask_pin2,</br>
-                                              Pio *pio_pin3, uint32_t pio_mask_pin3,</br>
-                                              Pio *pio_pin4, uint32_t pio_mask_pin4);</br>
+```C
+ initStepper(&n, int number_of_steps, Pio *pio_pin1, uint32_t pio_mask_pin1,
+                                              Pio *pio_pin2, uint32_t pio_mask_pin2,
+                                              Pio *pio_pin3, uint32_t pio_mask_pin3,
+                                              Pio *pio_pin4, uint32_t pio_mask_pin4);
+```
+
 
 ## Setting speed
 Set the speed that your motor will work on:</br>
