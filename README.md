@@ -1,5 +1,5 @@
 # Stepper Motor for Atmel SAM E70
-This library allows you to use the Stepper Motor model 28BYJ-48 with the constructor for 4-pin version. It was modeladed under an Atmel SAM E70 board and its commands, if your microcontroller uses any other commands that differs from SAME70, I do not guarantee that it will work. 
+>This library allows you to use the Stepper Motor model 28BYJ-48 with the constructor for 4-pin version. It was modeladed under an Atmel SAM E70 board and its commands, if your microcontroller uses any other commands that differs from SAME70, I do not guarantee that it will work. 
 
 # Usage
 Download Stepper.c and Stepper.h from this repository and include the files in yout Atmel Project. Do not forget to import Stepper.h in yout main file.
