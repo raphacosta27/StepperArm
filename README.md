@@ -32,6 +32,6 @@ void step(&n, int steps_to_move);
 ```
 
 ## Observations:
-For some reason that I did not find out yet, giving a steps_to_move in step method positive, it goes on a counter-clockwise direction, and a negative steps_to_move make it goes to a clockwise direction. This definition is the opposite of the one specified in the Arduino Stepper Library.</br>
+For some reason that I did not find out yet, giving a positive steps_to_move in step method, it goes on a counter-clockwise direction, and a negative steps_to_move make it goes to a clockwise direction. This definition is the opposite of the one specified in the Arduino Stepper Library.</br>
 
 All this library is based on the Stepper Library for Arduino, avaiable on https://github.com/arduino-libraries/Stepper. Please consider some bugs. 
